@@ -111,7 +111,7 @@ USE_TZ = True
 
 
 try:
-    from local_settings import *
+    from .local_settings import *
 except ImportError:
     print("Warning! local_settings are not defined!")
 
